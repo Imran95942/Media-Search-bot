@@ -67,12 +67,10 @@ logger - Get log file
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
 * Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
-
+* [Subinps] (https://t.me/subinps_bot)
 
 ## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
-
-[Update Channel](https://t.me/subin_works)
+Contact Me On [Telegram](https://t.me/blackninja5674)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
