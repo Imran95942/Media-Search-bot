@@ -269,6 +269,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 file_caption = files.file_name
                 size=files.file_size
                 caption = files.caption
+                if caption is None:
+                    caption = f"{files.file_name}"
                 buttons = [
                     [
                         InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files'),
@@ -293,6 +295,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 file_caption = files.file_name
                 size=files.file_size
                 caption = files.caption
+                if caption is None:
+                    caption = f"{files.file_name}"
                 buttons = [
                     [
                         InlineKeyboardButton('Share Bots', url='http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files'),
