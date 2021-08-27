@@ -91,7 +91,7 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('Search again', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files')
+            InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
