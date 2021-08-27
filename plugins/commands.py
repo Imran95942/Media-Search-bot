@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files')
+                        InlineKeyboardButton('Share This Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files')
                     ]
                     ]
                 await bot.send_cached_media(
