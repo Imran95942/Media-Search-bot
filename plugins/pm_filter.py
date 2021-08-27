@@ -272,10 +272,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/tekmovarchives')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/blackninja5674'>BLACKNINJA</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/darknessoft'>Ǥѳđƽϯѳƞҟƽ</a>\nAdmins : <a href='https://t.me/Dhanush_n'>Dhanush N</a>,<a href='https://t.me/UzumakiLikith'>Likith</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -296,8 +296,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/tekmovarchives')
+                        InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
                     ]
                     ]
                 
@@ -328,8 +328,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Share Bots', url='http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/tekmovarchives')
+                        InlineKeyboardButton('Share Bots', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
                     ]
                     ]
                 
