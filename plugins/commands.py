@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files')
+                        InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Share Bot", url="http://t.me/share/url?url=Checkout%20%40Seriessearch_bot%20for%20searching%20files")
+                        InlineKeyboardButton("Share Bot", url="http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,10 +192,10 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/tekmovarchives'),
-            InlineKeyboardButton('Source Code', url='https://github.com/blackninja5674/Media-Search-bot')
+            InlineKeyboardButton('Update Channel', url='https://t.me/serie_z'),
+            InlineKeyboardButton('Source Code', url='https://github.com/mecoding4fun/Media-Search-bot')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/blackninja5674'>BLACKNINJA</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/darknessoft'>Ǥѳđƽϯѳƞҟƽ</a>\nAdmins : <a href='https://t.me/Dhanush_n'>Dhanush N</a>,<a href='https://t.me/UzumakiLikith'>Likith</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
     
