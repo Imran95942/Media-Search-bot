@@ -296,7 +296,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Share Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files'),
+                        InlineKeyboardButton('Share This Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files'),
                         InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
                     ]
                     ]
