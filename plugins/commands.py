@@ -192,8 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/serie_z'),
-            InlineKeyboardButton('Source Code', url='https://t.me/Darknessoft')
+            InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/darknessoft'>Ǥѳđƽϯѳƞҟƽ</a>\nAdmins : <a href='https://t.me/Dhanush_n'>Dhanush N</a>,<a href='https://t.me/UzumakiLikith'>Likith</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
