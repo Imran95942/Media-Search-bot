@@ -298,6 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [
                         InlineKeyboardButton('Share This Bot', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files'),
                         InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
+                        InlineKeyboardButton('Request Group', url='https://t.me/requestyourseries_movies')
                     ]
                     ]
                 
@@ -330,6 +331,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [
                         InlineKeyboardButton('Share Bots', url='http://t.me/share/url?url=Checkout%20%40Serie_zbot%20for%20searching%20files'),
                         InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
+                        InlineKeyboardButton('Request Group', url='https://t.me/requestyourseries_movies')
                     ]
                     ]
                 
