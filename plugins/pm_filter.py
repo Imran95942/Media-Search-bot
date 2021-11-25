@@ -60,6 +60,11 @@ async def filter(client, message):
                     )
         else:
             await client.send_message(chat_id=message.from_user.id, text="Sorry, The file name you requested doesnt seem available, Try checking the spelling or Request the series or movies in [our group](https://t.me/requestyourseries_movies).")
+            btn.append(
+                    [
+                        InlineKeyboardButton('Request Group', url='https://t.me/requestyourseries_movies')
+                    ]
+                    )
             return
 
         if not btn:
