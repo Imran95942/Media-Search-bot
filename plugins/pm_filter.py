@@ -60,12 +60,16 @@ async def filter(client, message):
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
         else:
-            await client.send_message(chat_id=message.from_user.id, text="Sorry, The file name you requested doesnt seem available, Try checking the spelling or Request the series or movies in [our group](https://t.me/requestyourseries_movies).")
-            btn2.append(
-                    [
-                        InlineKeyboardButton('Request Group', url='https://t.me/requestyourseries_movies')
-                    ]
-                    )
+            await client.send_message(chat_id=message.from_user.id,
+                                      text="Sorry, The file name you requested doesnt seem available, Try checking the spelling or Request the series or movies in [our group](https://t.me/requestyourseries_movies).",
+                                     reply_markup=InlineKeyboardMarkup(
+                                            [
+                                                [
+                                                    InlineKeyboardButton("Request Group", url='https://t.me/requestyourseries_movies')
+                                                ]
+                                            ]
+                                      ))
+            
             return
 
         if not btn:
