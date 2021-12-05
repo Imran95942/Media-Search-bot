@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Update Channel', url='https://t.me/serie_z')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/subin_works'>Subin</a>\nAdmins : <a href='https://t.me/Dhanush_n'>Dhanush N</a>,<a href='https://t.me/UzumakiLikith'>Likith</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/Dhanush_n'>Dhanush N</a>\nAdmins : <a href='https://t.me/Likith_m'>Likith</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
