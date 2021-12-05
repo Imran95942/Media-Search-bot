@@ -359,5 +359,5 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
         elif query.data == "pages":
-            await query.answer()
+            await query.answer("....",show_alert=True)
     
